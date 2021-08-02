@@ -125,6 +125,7 @@ p{
 
 .indiv-proyect{
   flex-direction: column;
+  margin:0.5rem;
 }
 
 .img-archive-left{
