@@ -1,0 +1,225 @@
+/*De mas blanco a mas negro
+#FDFFFE
+#E2E0E1
+#D1CFD0
+#555E6F
+#464F5E
+#1C2125
+#1B2024
+#1A1F23
+#111517
+#171C1F
+#090B0C
+*/
+a{
+  color:black;
+  font-family:'Montserrat', cursive;
+}
+body{
+  margin:0;
+  padding:0;
+  border: 0;
+  background-color: #1c2023;
+}
+
+h1{
+  font-family: 'Gowun Dodum', sans-serif;
+  color:#FDFFFE;
+}
+
+h2{
+  font-family: 'Gowun Dodum', sans-serif;
+  margin:0;
+}
+
+h3{
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+hr{
+  background-color:#FDFFFE;
+  width:20%;
+}
+
+p{
+  color:#D1CFD0;
+  font-family: 'Montserrat',cursive;
+  /*letter-spacing: 1px;*/
+}
+
+.bottom-container{
+  /*this background color i dont like*/
+  background-color:#FDFFFE;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  min-height: 7rem;
+}
+
+.btn-block{
+  background-color: #1c2023;
+  display: flex;
+  margin: 0;
+  min-height: 5rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.btn-mail {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #E2E0E1;
+   font-family: 'Gowun Dodum', sans-serif;
+   font-size: 2rem;
+   font-weight: 100;
+   padding: 1rem;
+   background-color: #555E6F;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn-mail:hover {
+   border: solid #FDFFFE 1px;
+   background: #FDFFFE;
+   background-image: -webkit-linear-gradient(top, #FDFFFE, #FDFFFE);
+   background-image: -moz-linear-gradient(top, #FDFFFE, #FDFFFE);
+   background-image: -ms-linear-gradient(top, #FDFFFE, #FDFFFE);
+   background-image: -o-linear-gradient(top, #FDFFFE, #FDFFFE);
+   background-image: -webkit-gradient(to bottom, #FDFFFE, #FDFFFE);
+   color:#555E6F;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.cert-imgs{
+  border-radius: 15%;
+  float: left;
+  margin-right: 0.3rem;
+  height: 110px;
+  width: 190px;
+}
+
+.cert-items{
+  margin: 1rem;
+  width: 31.25rem;
+}
+
+.cert-section{
+  background-color:#1c2023;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.h1presentacion{
+  margin: 0;
+}
+
+.indiv-proyect{
+  flex-direction: column;
+}
+
+.img-archive-left{
+  float:left;
+  width: 130px;
+  height: 130px;
+}
+
+.img-archive-right{
+  float: right;
+  width: 130px;
+  height: 130px;
+}
+
+.middle-container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1c2023;
+  justify-content: space-around;
+  min-height:7rem;
+  width:100%;
+}
+
+.proyect-container{
+  display: flex;
+  background-color:#464F5E;
+  border-radius: 20px;
+  margin: 1rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.proyect-imgs{
+  height: 12.5rem;
+  width:12.5rem;
+  margin-top: .75rem;
+  margin-bottom: .75rem;
+  border-radius: 15%;
+}
+
+.presentacion{
+  background-color: #1c2023;
+  padding: 2.5rem;
+  margin-top: 1rem;
+}
+
+.skill-items{
+  border-radius: 10%;
+  margin: 0.5rem;
+  width: 31.25rem;
+}
+
+.subtitles {
+  color:#FDFFFE;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.titles{
+  color:#E2E0E1;
+  font-family: "Bebas Neue",sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.top-container{
+  align-items: center;
+  display: flex;
+  background-color: #1A1F23;
+  background-image: url(https://wallpapercave.com/wp/wp7391640.jpg);
+  background-position: 50% 50%;
+  flex-direction: row;
+  justify-content: center;
+  height: 44rem;
+}
+
+
+#intro{
+  /*color:#A30000;*/
+  color:black;
+  font-family: "Bebas Neue",sans-serif;
+  font-size: 5.62rem;
+  flex-grow: 2;
+  margin-bottom:0;
+}
+
+#programador{
+  color:#fdfffe;
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 2rem;
+  padding-right:1rem;
+  padding-bottom: 3rem;
+  letter-spacing: 2px;
+  font-family: 'Gowun Dodum', sans-serif;
+}
