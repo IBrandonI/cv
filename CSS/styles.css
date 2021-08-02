@@ -125,7 +125,6 @@ p{
 
 .indiv-proyect{
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .img-archive-left{
@@ -169,8 +168,6 @@ p{
 
 .presentacion{
   background-color: #1c2023;
-  display: flex;
-  flex-wrap:wrap;
   padding: 2.5rem;
   margin-top: 1rem;
 }
